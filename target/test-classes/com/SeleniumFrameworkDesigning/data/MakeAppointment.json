@@ -1,0 +1,22 @@
+[{
+
+
+"username" :"John Doe",
+"password" : "ThisIsNotAPassword",
+"facility":1,
+"program" : 1,
+"date": "12/12/2024"
+
+
+},
+
+{
+
+"username" :"John Doe",
+"password" : "ThisIsNotAPassword",
+"facility": 2,
+"program" : 2,
+"date": "01/01/2024"
+
+}
+]

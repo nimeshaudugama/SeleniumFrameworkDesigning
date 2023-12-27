@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T02:22:51 EST" name="Surefire suite" finished-at="2023-12-27T02:22:58 EST" duration-ms="6703">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T02:22:51 EST" name="Surefire test" finished-at="2023-12-27T02:22:58 EST" duration-ms="6703">
+      <class name="com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest">
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:51 EST" name="launchSite" finished-at="2023-12-27T02:22:54 EST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="makeBooking(java.util.HashMap)[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:54 EST" name="makeBooking" data-provider="getData" finished-at="2023-12-27T02:22:55 EST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=12/12/2024, password=ThisIsNotAPassword, program=1, facility=1, username=John Doe}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:55 EST" name="tearDown" finished-at="2023-12-27T02:22:55 EST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchSite()[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:55 EST" name="launchSite" finished-at="2023-12-27T02:22:57 EST" duration-ms="1838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchSite -->
+        <test-method signature="makeBooking(java.util.HashMap)[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:57 EST" name="makeBooking" data-provider="getData" finished-at="2023-12-27T02:22:58 EST" duration-ms="771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{date=01/01/2024, password=ThisIsNotAPassword, program=2, facility=2, username=John Doe}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest@1d548a08]" started-at="2023-12-27T02:22:58 EST" name="tearDown" finished-at="2023-12-27T02:22:58 EST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SeleniumFrameworkDesigning.tests.MakeTheBookingTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
